@@ -1,0 +1,246 @@
+@media (max-width:992px) {
+    label[for="menuicon"] {
+        width: 30px;
+        height: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        position: relative;
+        z-index: 3;
+        margin-top: 20px;
+    }
+
+    label[for="menuicon"]>span {
+        width: 100%;
+        height: 5px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    ul.mobile-view {
+        width: 100vw;
+        height: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: fixed;
+        right: -100%;
+        top: 0;
+        z-index: 2;
+        transition: all 300ms linear;
+    }
+
+    input[type="checkbox"]:checked+ul {
+        right: 0;
+    }
+}
+
+@media (min-width:768px) {
+    .col-md-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+
+    .border {
+        border: 0;
+    }
+
+    .line {
+        border: 2px solid white;
+        height: 100%;
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: rotateY('angle');
+    }
+
+    .pt-40 {
+        padding-top: 30px;
+    }
+
+    .line-1 {
+        border: 2px solid white;
+        height: 2px;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        transform: rotatex('angle');
+        z-index: 1;
+    }
+
+}
+
+@media (min-width:992px) {
+    .col-lg-6 {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .line,
+    .line-1 {
+        display: none;
+    }
+
+    .pt-40 {
+        padding-top: 0;
+    }
+
+    .border {
+        border: 3px solid white;
+        height: 70px;
+        margin-left: 30%;
+    }
+
+    .border-lg-0 {
+        border: 0;
+    }
+
+    .center-lg {
+        position: relative;
+        left: 100%;
+    }
+}
+
+@media (min-width:1200px) {
+    .col-xl-3 {
+        width: 25%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .box {
+        max-width: 962px;
+        height: 105px;
+        border-radius: 150px;
+        background: rgba(44, 73, 254, 0.74);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+
+    .line {
+        border: 0;
+    }
+
+    .pt-40,
+    .pb-15 {
+        padding: 0;
+    }
+
+    .border {
+        border: 3px solid white;
+        height: 70px;
+        margin-left: 30px;
+    }
+
+    .center-lg {
+        left: 0;
+    }
+}
+
+/* section-b */
+@media (max-width:1200px) {
+    .col-xl-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .col-xl-4 {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+}
+
+/* section-c */
+
+@media (max-width:992px) {
+    .col-xl-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-bottom: 15px;
+    }
+}
+
+@media (max-width:796px) {
+    .col-md-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .mr-15 {
+        margin-right: 15px;
+    }
+
+    .head {
+        font-size: 5.5rem;
+        padding-top: 30px;
+    }
+
+    .pt-126 {
+        padding-top: 50px;
+    }
+
+    .svg {
+        margin-bottom: 20px;
+    }
+
+}
+
+/* section-d */
+
+@media (max-width:992px) {
+    .col-lg-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    @media (max-width:576px) {
+        .col-sm-12 {
+            width: 100%;
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+
+        .mr-15 {
+            margin-right: 15px;
+        }
+
+        .head {
+            font-size: 5rem;
+            margin-top: 35px;
+        }
+    }
+
+    .last-p {
+        margin-bottom: 25px;
+        margin-top: 20px;
+    }
+}
+
+/* footer */
+
+@media (max-width:574px) {
+    .col-sm-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+
+}
